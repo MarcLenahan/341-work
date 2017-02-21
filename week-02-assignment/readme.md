@@ -20,3 +20,6 @@ which means that I may have to post more issues or email the instructors.
 * As a result of my problems I was not able to help out other classmates. I do realize though that is
 a big part of this class and will also help out myself by practicing out these assignments as much
 as possible.
+
+
+![Image of my editor] (LenahanTextShot.jpg)
