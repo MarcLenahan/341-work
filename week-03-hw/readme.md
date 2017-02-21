@@ -10,3 +10,5 @@ Marc Lenahan 51
 * Despite my setbacks I did manage to learn a lot about creating a website using markup and html. it was very interesting and because of my problems I intend to work harder on these topics to make sure that I will better understand projects down the road.
 
 Website: https://marclenahan.github.io/341-work/week-03-hw/
+
+Directory: https://github.com/MarcLenahan/341-work/tree/master/week-03-hw
