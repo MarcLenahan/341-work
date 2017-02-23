@@ -22,4 +22,4 @@ a big part of this class and will also help out myself by practicing out these a
 as possible.
 
 
-![Image of my editor] (LenahanTextShot.jpg)
+![Image of my editor](Screenshot.PNG)
