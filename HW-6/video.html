@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flash, Video and Audio</title>
-    <script type="text/javascript">
-      src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-    <script type="text/javascript">
-      var flashvar = {};
-      var params = {movie: "../video/DSC_0024.flv"};
-      swfobject.embedSWF("flash/osplayer.swf", "snow", "400", "300", "8.0.0", flashvar, params);</script>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Marc Lenahan">
+      <!--^should be name of creator-->
+      <meta name="description" content="A website about The Dungeon House and the events that take place there.">
+      <!--^should be the description of the site-->
+    <title>Ping-Pong Tournament</title>
   </head>
   <body>
-    <video poster="images/puppy.jpg" width="400" height="320" controls="controls">
-      <source src="video/puppy.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-      <source src="video/puppy,webm" type='video/webm; codecs="vp8, vorbis"' />
-      <div id="snow">
-        <p>You cannot see this video of a puppy playing
-            in the snow because this browser does not support
-            our video formats</p>
-      </div>
-    </video>
+  <div id="video">
+<!--So far only works in Chrome browser :(-->
+<video
+ src="D:\MediaArts\341-work\HW-6\video\video-one.mp4"
+  poster="D:\MediaArts\341-work\HW-6\img\thumbnail.jpg"
+  width="600"
+  preload
+  controls
+  loop>
+  <br>
+  <p>A video of participants in The Dungeon House</p>
+</video>
+<p><b>Clear Evidence of the awsomeness that goes down in The Dungeon House</b></p>
+</div>
+<p>
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="VideoTwo.html">Second Video</a></li>
+  </ul>
+</p>
   </body>
 </html>
