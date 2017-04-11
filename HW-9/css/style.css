@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(128, 242, 255);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: left;
+}
+.main-info {
+  background-color: rgb(178, 97, 36);
+  margin: 1em;
+  padding: 1em;
+
+}
+.info p{
+  font-size: 20px;
+}
+aside.content-side {
+    float: right;
+    margin: 2em;
+    margin-top: 2em;
+    padding: 0;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 166, 178);
+    font-weight: lighter;
+  }
+  aside .aside-head {
+    font-size: 30px;
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(255, 167, 102);
+}
+aside .aside-text{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    background-color: rgb(178, 97, 36);
+    margin: 0;
+    padding: 0;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+}
+
+.menuitem {
+    display: inline-block;
+    padding: 0.5em 1em;
+    padding-right: 2.5em;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menuitem:hover, .dropdown:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 166, 178);
+}
+
+.dropdown {
+    display: inline-block;
+    width: 10%;
+    min-width: 100px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 173, 173);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: rgb(255, 255, 255);
+    background-color: #rgb(54, 166, 178);
+}
+
+.lower-header {
+    margin: 0;
+    background-color: rgb(54, 166, 178);
+    height: 90px;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+}
+
+.site-name {
+    float: left;
+    padding: 10px;
+    margin-left: 0.25em;
+    font-weight: lighter;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+}
+
+.site-logo {
+    font-size: 2.5em;
+    float: left;
+    padding: 10px;
+    margin-right: 0.25em;
+}
+
+.site-logo img {
+    height: 70px;
+}
