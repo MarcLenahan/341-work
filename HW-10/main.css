@@ -1,0 +1,57 @@
+body {
+  background-color: #5A757F;
+}
+@media (min-width: 320px){
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+  height: 300px;
+}
+
+.title {
+  background-color: #346B7F;
+  height: 130px;
+  text-align: center;
+}
+
+.about {
+  background-color: #b4Ebff;
+  min-height: 300px;
+
+
+}
+#RWD_title {
+  text-align: center;
+}
+
+.why {
+  background-color: #67d6ff;
+  height: 260px;
+}
+
+.how {
+  background-color: #53abcc;
+  height: 260px;
+}
+}
+@media (min-width: 768px) {
+  .about {
+    width: 50%;
+  }
+  .why {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
