@@ -1,119 +1,44 @@
-/*body {
-  margin: 0;
-  color: #000000;
-}
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
-  position: relative;
-  opacity: .65;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-.bgimg-1 {
-  min-height: 100vh;
-  background-image: url("img\top.JPG");
-}
-.bgimg-2 {
-    min-height: 100vh;
-    background-image: url("img\middle.JPG");
-}
-
-.bgimg-3 {
-    min-height: 400px;
-    background-image: url("img\bottom.JPG");
-}
-
-.bgimg-4 {
-    min-height: 400px;
-    background-image: url("img\end.JPG");
-}
-
-.hero {
-    padding: 50px 80px;
-    color: #777;
-    background-color: white;
-    text-align: center;
-    text-align: justify;
-}
-
-.caption {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    color: #000;
-    text-align: center;
-}
-
-.description-container {
-    position: relative;
-}
-
-.description {
-    padding: 50px 80px;
-    color: #ddd;
-    background-color: #282E34;
-    text-align: center;
-    text-align: justify;
-}
-
-.caption span.border {
-    padding: 18px;
-    color: #f7f7f7;
-    background-color: #4a4a4a;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
-h3 {
-    color: #111;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    letter-spacing: 5px;
-}
-*/
 body {
     margin: 0;
-    color: #777;
-    font: 400 15px/1.8 "Lato", sans-serif;
+    color: black;
+    font: 600 15px/1.8, sans-serif;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.top, .middle, .end, .bottom {
     position: relative;
-    opacity: 0.65;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-.bgimg-1 {
+.top {
     min-height: 100vh;
     background-image: url("img/top.JPG");
 }
 
-.bgimg-2 {
-    min-height: 400px;
+.middle {
+    min-height: 100vh;
     background-image: url("img/middle.JPG");
 }
 
-.bgimg-3 {
-    min-height: 400px;
-    background-image: url("imgs/img_parallax3.jpg");
+.end {
+    min-height: 100vh;
+    background-image: url("img/end.JPG");
 }
-.bgimg-4 {
-    min-height: 400px;
-    background-image: url("imgs/img_parallax3.jpg");
+.bottom {
+    min-height: 100vh;
+    background-image: url("img/bottom.JPG");
 }
 .hero {
     padding: 50px 80px;
-    color: #777;
-    background-color: white;
+    color: black;
+    background-color: #5ad753;
     text-align: center;
     text-align: justify;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .caption {
@@ -121,7 +46,7 @@ body {
     top: 50%;
     left: 0;
     width: 100%;
-    color: #000;
+    color: black;
     text-align: center;
 }
 
@@ -131,38 +56,34 @@ body {
 
 .description {
     padding: 50px 80px;
-    color: #ddd;
-    background-color: #282E34;
+    color: black;
+    background-color: #5ad753;
     text-align: center;
     text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px
 }
 
 .caption span.border {
     padding: 18px;
-    color: #f7f7f7;
-    background-color: #4a4a4a;
-    font-size: 25px;
+    color: white;
+    background-color: #1fbd16;
+    font-size: 40px;
     letter-spacing: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 h3 {
-    color: #111;
+    color: black;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font: 20px;
     letter-spacing: 5px;
-}
-
-
-/* Turn off parallax scrolling for tablets and phones */
-
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
+    font-family: sans-serif;
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .top, .middle, .end .bottom {
         background-attachment: scroll;
     }
 }
